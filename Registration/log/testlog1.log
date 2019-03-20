@@ -224,3 +224,28 @@
 2019-03-21 00:19:04,993 [main] INFO IMGBB WebSite - Server is not available for the test
 2019-03-21 00:19:04,994 [main] INFO IMGBB WebSite - Test Case Failed....
 2019-03-21 00:19:08,467 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:39:33,532 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:39:37,533 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 00:39:37,804 [main] INFO IMGBB WebSite - testitcdemo+1553125163620@gmail.com is registering
+2019-03-21 00:39:38,190 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 00:39:38,296 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 00:39:38,440 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 00:39:38,805 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 00:39:38,815 [main] INFO IMGBB WebSite - Server is not available for the test
+2019-03-21 00:39:38,816 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 00:39:44,956 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:41:46,842 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:41:48,449 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 00:44:18,109 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:44:19,236 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 00:53:36,491 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:53:38,662 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 00:53:43,045 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 00:53:45,118 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 00:53:45,121 [main] INFO IMGBB WebSite - testitcdemo+1553126012407@gmail.com is registering
+2019-03-21 00:53:45,469 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 00:53:45,577 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 00:53:45,731 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 00:53:46,012 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 00:53:46,026 [main] INFO IMGBB WebSite - Server is not available for the test
+2019-03-21 00:53:46,027 [main] INFO IMGBB WebSite - Test Case Failed....

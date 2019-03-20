@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [RegistrationCycle]">
-  <listeners>
-    <listener class-name="com.imbb.utilities.Reporting"/>
-  </listeners>
-  <test thread-count="5" name="RegistrationCycleTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="com.imbb.testCases.TC02_UploadLogoTest">
+        <methods>
+          <include name="uploadPicture"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.imbb.testCases.TC02_UploadLogoTest -->
       <class name="com.imbb.testCases.TC01_RegistrationCycleTest">
         <methods>
           <include name="gmailUserActivate"/>
@@ -14,13 +18,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.imbb.testCases.TC01_RegistrationCycleTest -->
-      <class name="com.imbb.testCases.TC02_UploadLogoTest">
-        <methods>
-          <include name="uploadPicture"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.imbb.testCases.TC02_UploadLogoTest -->
     </classes>
-  </test> <!-- RegistrationCycleTest(failed) -->
-</suite> <!-- Failed suite [RegistrationCycle] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
