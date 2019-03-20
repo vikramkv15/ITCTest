@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegistrationCycle">
+
+	<listeners>
+		<listener class-name="com.imbb.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="RegistrationCycleTest">
+		<classes>
+			<class name="com.imbb.testCases.TC01_RegistrationCycleTest" />
+			<class name="com.imbb.testCases.TC02_UploadLogoTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
