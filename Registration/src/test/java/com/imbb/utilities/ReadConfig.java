@@ -14,6 +14,7 @@ public class ReadConfig {
 			FileInputStream fis = new FileInputStream(src);
 			pro = new Properties();
 			pro.load(fis);
+			fis.close();
 		} catch (Exception e) {
 			System.out.println("Exception is " + e.getMessage());
 		}

@@ -249,3 +249,179 @@
 2019-03-21 00:53:46,012 [main] INFO IMGBB WebSite - Clicked on the create account
 2019-03-21 00:53:46,026 [main] INFO IMGBB WebSite - Server is not available for the test
 2019-03-21 00:53:46,027 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 09:26:32,469 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:26:36,463 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:26:36,523 [main] INFO IMGBB WebSite - testitcdemo+1553156783646@gmail.com is registering
+2019-03-21 09:26:36,845 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:26:36,949 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:26:37,069 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:26:39,298 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:26:39,329 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:26:39,330 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:26:51,526 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:27:51,769 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:29:42,661 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:29:44,631 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:29:44,686 [main] INFO IMGBB WebSite - testitcdemo+1553156978297@gmail.com is registering
+2019-03-21 09:29:45,024 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:29:45,130 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:29:45,276 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:29:47,031 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:29:47,072 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:29:47,073 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:29:48,950 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:30:17,219 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:33:22,360 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:33:25,188 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:33:25,229 [main] INFO IMGBB WebSite - testitcdemo+1553157194863@gmail.com is registering
+2019-03-21 09:33:25,498 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:33:25,599 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:33:25,726 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:33:27,464 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:33:27,498 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:33:27,498 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:33:29,953 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:35:01,810 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:37:14,725 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:37:16,349 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:37:16,389 [main] INFO IMGBB WebSite - testitcdemo+1553157430306@gmail.com is registering
+2019-03-21 09:37:16,665 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:37:16,761 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:37:16,887 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:37:18,691 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:37:18,719 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:37:18,720 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:37:20,197 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:37:54,747 [main] INFO IMGBB WebSite - Email sent is failed...
+2019-03-21 09:37:54,747 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 09:38:00,265 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:42:54,853 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:42:56,582 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:42:56,629 [main] INFO IMGBB WebSite - testitcdemo+1553157770805@gmail.com is registering
+2019-03-21 09:42:56,907 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:42:57,004 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:42:57,138 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:42:58,928 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:42:58,961 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:42:58,962 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:43:01,269 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:43:23,427 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:44:04,139 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:44:08,331 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:44:08,377 [main] INFO IMGBB WebSite - testitcdemo+1553157839971@gmail.com is registering
+2019-03-21 09:44:08,637 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:44:08,731 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:44:08,865 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:44:10,635 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:44:10,675 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:44:10,676 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:44:12,540 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:44:38,283 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:51:53,171 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 09:51:54,468 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 09:51:54,514 [main] INFO IMGBB WebSite - testitcdemo+1553158309025@gmail.com is registering
+2019-03-21 09:51:54,794 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 09:51:54,887 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 09:51:55,003 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 09:51:57,501 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 09:51:57,536 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 09:51:57,537 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 09:51:59,638 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 09:52:23,319 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:10:22,555 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:10:24,074 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:10:24,120 [main] INFO IMGBB WebSite - testitcdemo+1553159418635@gmail.com is registering
+2019-03-21 10:10:24,412 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:10:24,525 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:10:24,695 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:10:26,465 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:10:26,502 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 10:10:26,503 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 10:10:28,353 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 10:11:49,581 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:13:29,067 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:13:30,555 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:13:30,598 [main] INFO IMGBB WebSite - testitcdemo+1553159605201@gmail.com is registering
+2019-03-21 10:13:30,849 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:13:30,945 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:13:31,068 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:13:33,442 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:13:33,470 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 10:13:33,470 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 10:13:35,267 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 10:13:58,063 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:15:05,933 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:15:07,493 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:15:07,532 [main] INFO IMGBB WebSite - testitcdemo+1553159702141@gmail.com is registering
+2019-03-21 10:15:07,785 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:15:07,874 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:15:07,996 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:15:10,084 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:15:10,125 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 10:15:10,125 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 10:15:11,223 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 10:15:32,596 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:21:58,237 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:21:59,700 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:21:59,740 [main] INFO IMGBB WebSite - testitcdemo+1553160114093@gmail.com is registering
+2019-03-21 10:22:00,012 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:22:00,119 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:22:00,252 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:22:05,648 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:22:05,678 [main] INFO IMGBB WebSite - Email sent successfully....
+2019-03-21 10:22:05,679 [main] INFO IMGBB WebSite - Test Case Passed....
+2019-03-21 10:22:07,488 [main] INFO IMGBB WebSite - Gmail url opened.
+2019-03-21 10:22:14,355 [main] INFO IMGBB WebSite - testitcdemo+1553160114093@gmail.com is the email
+2019-03-21 10:22:14,356 [main] INFO IMGBB WebSite - User Logged in to the Gmail
+2019-03-21 10:22:18,584 [main] INFO IMGBB WebSite - User searched email
+2019-03-21 10:22:20,927 [main] INFO IMGBB WebSite - User clicked on the mail
+2019-03-21 10:23:17,707 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:23:53,095 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:23:54,493 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:23:54,533 [main] INFO IMGBB WebSite - testitcdemo+1553160229152@gmail.com is registering
+2019-03-21 10:23:54,852 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:23:54,982 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:23:55,130 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:23:55,391 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:23:55,413 [main] INFO IMGBB WebSite - Server is not available for the test
+2019-03-21 10:23:55,413 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 10:23:59,027 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:38:57,552 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:38:58,849 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 10:38:58,904 [main] INFO IMGBB WebSite - testitcdemo+1553161133456@gmail.com is registering
+2019-03-21 10:38:59,187 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 10:38:59,282 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 10:38:59,405 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 10:38:59,670 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 10:38:59,679 [main] INFO IMGBB WebSite - Server is not available for the test. Please run the test once the server is up and running
+2019-03-21 10:38:59,679 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 10:39:03,535 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:39:46,093 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:39:47,288 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 10:41:29,098 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:41:30,390 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 10:42:49,647 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:42:50,827 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 10:42:51,019 [main] INFO IMGBB WebSite - Registered User name is entered.
+2019-03-21 10:42:51,155 [main] INFO IMGBB WebSite - Registered Password is entered.
+2019-03-21 10:42:51,505 [main] INFO IMGBB WebSite - Submit button is entered and Homepage is displayed
+2019-03-21 10:47:28,140 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:47:29,649 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 10:48:25,968 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:48:27,298 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 10:50:41,701 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 10:50:43,501 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 11:28:35,171 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 11:28:37,089 [main] INFO IMGBB WebSite - Signup Url is opened.
+2019-03-21 11:28:37,123 [main] INFO IMGBB WebSite - testitcdemo+1553164111105@gmail.com is registering
+2019-03-21 11:28:37,392 [main] INFO IMGBB WebSite - Email is entered.
+2019-03-21 11:28:37,521 [main] INFO IMGBB WebSite - User name is entered.
+2019-03-21 11:28:37,647 [main] INFO IMGBB WebSite - Password is entered.
+2019-03-21 11:28:37,934 [main] INFO IMGBB WebSite - Clicked on the create account
+2019-03-21 11:28:37,949 [main] INFO IMGBB WebSite - Server is not available for the test. Please run the test once the server is up and running
+2019-03-21 11:28:37,950 [main] INFO IMGBB WebSite - Test Case Failed....
+2019-03-21 11:28:41,858 [main] INFO IMGBB WebSite - Chrome Driver is initiated
+2019-03-21 11:28:43,479 [main] INFO IMGBB WebSite - Login Url is opened.
+2019-03-21 11:28:43,629 [main] INFO IMGBB WebSite - Registered User name is entered.
+2019-03-21 11:28:43,767 [main] INFO IMGBB WebSite - Registered Password is entered.
+2019-03-21 11:28:44,143 [main] INFO IMGBB WebSite - Submit button is entered and Homepage is displayed

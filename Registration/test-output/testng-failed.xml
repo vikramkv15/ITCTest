@@ -10,14 +10,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.imbb.testCases.TC02_UploadLogoTest -->
-      <class name="com.imbb.testCases.TC01_RegistrationCycleTest">
-        <methods>
-          <include name="gmailUserActivate"/>
-          <include name="tearDown"/>
-          <include name="userRegistration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.imbb.testCases.TC01_RegistrationCycleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

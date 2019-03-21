@@ -8,7 +8,25 @@ import java.io.OutputStream;
 import java.util.Properties;
 
 public class TempConfig {
-	Properties pro = new Properties();
+	Properties prop = new Properties();
+	
+	public TempConfig(){
+		File src = new File("./Configuration/temp.properties");
+		try {
+			FileInputStream fin = new FileInputStream(src);
+			prop.load(fin);
+			fin.close();
+		} catch (Exception e) {
+			System.out.println("Exception is " + e.getMessage());
+		}
+		
+	}
+
+	public String getLoginUsrName() {
+		String lgusrname = prop.getProperty("loginUserName");
+		return lgusrname;
+	}
+	
 	public void tempWriteConfiguration(String loginusrname) {
 		
 		OutputStream output = null;
@@ -17,10 +35,10 @@ public class TempConfig {
 			output = new FileOutputStream("./Configuration/temp.properties");
 
 			// set the properties value
-			pro.setProperty("loginUserName", loginusrname);
+			prop.setProperty("loginUserName", loginusrname);
 
 			// save properties to project root folder
-			pro.store(output, null);
+			prop.store(output, null);
 
 		} catch (IOException io) {
 			io.printStackTrace();
@@ -35,19 +53,6 @@ public class TempConfig {
 
 		}
 	}
-	public void TempReadConfig() {
-		File src = new File("./Configuration/temp.properties");
-		try {
-			FileInputStream fis = new FileInputStream(src);
-			pro.load(fis);
-		} catch (Exception e) {
-			System.out.println("Exception is " + e.getMessage());
-		}
-	}
-
-	public String getLoginUsrName() {
-		String loginusrname = pro.getProperty("loginUserName");
-		return loginusrname;
-	}
+	
 
 }

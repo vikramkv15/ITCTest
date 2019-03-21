@@ -3,6 +3,7 @@ package com.imbb.pageObjects;
 
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -84,7 +85,7 @@ public class GmailLogin extends BasePage{
 		searchBox.sendKeys("to:"+emailIdChild + Keys.ENTER);
 	}
 	
-	public ImgbbHomePage openLink() 
+	public ImgbbHomePage openLink() throws Exception 
 	{	
 		waitForVisible(driver, activatelink);
 		activatelink.click();

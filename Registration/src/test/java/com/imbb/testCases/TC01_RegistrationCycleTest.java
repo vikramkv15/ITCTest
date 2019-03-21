@@ -1,6 +1,8 @@
 package com.imbb.testCases;
 
-import java.util.concurrent.TimeUnit;
+import java.util.Iterator;
+import java.util.Set;
+
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
@@ -42,7 +44,7 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 
 		// Check whether the email is sent
 		if (driver.getPageSource().contains(" Internal Server Error")) {
-			logger.info("Server is not available for the test");
+			logger.info("Server is not available for the test. Please run the test once the server is up and running");
 			logger.info("Test Case Failed....");
 			captureScreen(driver, "Internal Server Error");
 			AssertJUnit.assertTrue(false);
@@ -75,26 +77,51 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 		// logging into gmail using the parent email ID.
 		gmail.enterEmailID(gmailParent);
 		gmail.enterPassword(password);
-		System.out.println(signupemailId + " is the email");
+		logger.info(signupemailId + " is the email");
+		logger.info("User Logged in to the Gmail");
 
 		// Searching for the email based on the child mail id and text of the mail
 		// subject
 		gmail.searchEmail(signupemailId);
+		logger.info("User searched email");
+
 		gmail.clickEmail(emailSub);
-		ImgbbHomePage imgbhome = gmail.openLink();
-		Thread.sleep(8000);
+		logger.info("User clicked on the mail");
 
-		boolean result = imgbhome.textToBeChecked();
-		if (result == true) {
-			AssertJUnit.assertTrue(true);
-			logger.info("Successfully user account is activated");
-			logger.info("Test Case Passed....");
+		try {
+			ImgbbHomePage imgbhome = gmail.openLink();
+			Thread.sleep(500);
+		} catch (org.openqa.selenium.StaleElementReferenceException ex) {
+			ImgbbHomePage imgbhome1 = gmail.openLink();
+			logger.info("User clicked on the activate link");
+			String MainWindow = driver.getWindowHandle();
 
-		} else {
-			logger.info("Email sent is failed...");
-			logger.info("Test Case Failed....");
-			captureScreen(driver, "gmailUserActivate");
-			AssertJUnit.assertTrue(false);
+			// To handle all new opened window.
+			Set<String> s1 = driver.getWindowHandles();
+			Iterator<String> i1 = s1.iterator();
+
+			while (i1.hasNext()) {
+				String ChildWindow = i1.next();
+
+				if (!MainWindow.equalsIgnoreCase(ChildWindow)) {
+
+					// Switching to Child window
+					driver.switchTo().window(ChildWindow);
+					boolean result = imgbhome1.textToBeChecked();
+					if (result == true) {
+						AssertJUnit.assertTrue(true);
+						logger.info("Successfully user account is activated");
+						logger.info("Test Case Passed....");
+
+					} else {
+						logger.info("Email sent is failed...");
+						logger.info("Test Case Failed....");
+						captureScreen(driver, "gmailUserActivate");
+						AssertJUnit.assertTrue(false);
+					}
+
+				}
+			}
 		}
 
 	}

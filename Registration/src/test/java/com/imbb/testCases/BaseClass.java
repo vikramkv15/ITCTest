@@ -36,9 +36,8 @@ public class BaseClass {
 	public String loginurl = readconfig.getLoginURL();
 	public String logopath = readconfig.getLogoPath();
 	public String logintext = readconfig.getLoginText();
-	public String Loginusrnme = tempconfig.getLoginUsrName();
 	public String emailsenttext = readconfig.getEmailSentText();
-	
+	public String Loginusrnme = tempconfig.getLoginUsrName();
 	public static WebDriver driver;
 
 	public static Logger logger;

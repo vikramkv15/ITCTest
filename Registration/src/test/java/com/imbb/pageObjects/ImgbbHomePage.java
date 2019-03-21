@@ -20,7 +20,7 @@ public class ImgbbHomePage extends BasePage {
 	@CacheLookup
 	WebElement changebackgroundpicbutton;
 
-	@FindBy(how = How.XPATH, xpath = "//*[contains(@class,'btn-text']")
+	@FindBy(how = How.CSS, css = "a.edit-link")
 	@CacheLookup
 	WebElement textchecked;
 
