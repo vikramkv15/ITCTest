@@ -10,7 +10,7 @@ import junit.framework.Assert;
 
 public class TC02_UploadLogoTest extends BaseClass {
 
-	@Test(groups = { "B" }, dependsOnGroups = { "A" })
+	@Test(groups = { "B" })
 	public void uploadPicture() throws Exception {
 		String Loginusrnme = readconfig.getLoginUsrName();
 
