@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.imbb.pageObjects.GmailLogin;
 import com.imbb.pageObjects.ImgbbHomePage;
 import com.imbb.pageObjects.ImgbbSignUpPage;
-import com.imbb.utilities.TempConfig;
+
 
 public class TC01_RegistrationCycleTest extends BaseClass {
 
@@ -20,9 +20,6 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 		 * Creating a random user name and saving it to temp properties file so that it
 		 * can be used while logging in again to website
 		 */
-		TempConfig writeconfig = new TempConfig();
-		String usrname = username + randomNum();
-		writeconfig.tempWriteConfiguration(usrname);
 
 		driver.get(baseURL);
 		logger.info("Signup Url is opened.");
@@ -33,7 +30,7 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 		signup.emailId(signupemailId);
 		logger.info("Email is entered.");
 
-		signup.userName(usrname);
+		signup.userName(savingUserName());
 		logger.info("User name is entered.");
 
 		signup.passwordKey(password);
@@ -90,12 +87,10 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 
 		try {
 			ImgbbHomePage imgbhome = gmail.openLink();
-			Thread.sleep(500);
-		} catch (org.openqa.selenium.StaleElementReferenceException ex) {
-			ImgbbHomePage imgbhome1 = gmail.openLink();
+			Thread.sleep(5000);
 			logger.info("User clicked on the activate link");
 			String MainWindow = driver.getWindowHandle();
-
+			driver.navigate().refresh();
 			// To handle all new opened window.
 			Set<String> s1 = driver.getWindowHandles();
 			Iterator<String> i1 = s1.iterator();
@@ -107,6 +102,40 @@ public class TC01_RegistrationCycleTest extends BaseClass {
 
 					// Switching to Child window
 					driver.switchTo().window(ChildWindow);
+					driver.navigate().refresh();
+					boolean result = imgbhome.textToBeChecked();
+					if (result == true) {
+						AssertJUnit.assertTrue(true);
+						logger.info("Successfully user account is activated");
+						logger.info("Test Case Passed....");
+
+					} else {
+						logger.info("Email sent is failed...");
+						logger.info("Test Case Failed....");
+						captureScreen(driver, "gmailUserActivate");
+						AssertJUnit.assertTrue(false);
+					}
+
+				}
+			}
+		
+		} catch (org.openqa.selenium.StaleElementReferenceException ex) {
+			ImgbbHomePage imgbhome1 = gmail.openLink();
+			logger.info("User clicked on the activate link");
+			String MainWindow = driver.getWindowHandle();
+			driver.navigate().refresh();
+			// To handle all new opened window.
+			Set<String> s1 = driver.getWindowHandles();
+			Iterator<String> i1 = s1.iterator();
+
+			while (i1.hasNext()) {
+				String ChildWindow = i1.next();
+
+				if (!MainWindow.equalsIgnoreCase(ChildWindow)) {
+
+					// Switching to Child window
+					driver.switchTo().window(ChildWindow);
+					driver.navigate().refresh();
 					boolean result = imgbhome1.textToBeChecked();
 					if (result == true) {
 						AssertJUnit.assertTrue(true);

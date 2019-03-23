@@ -9,35 +9,36 @@ import com.imbb.pageObjects.ImgbbLoginPage;
 import junit.framework.Assert;
 
 public class TC02_UploadLogoTest extends BaseClass {
-	
-	@Test(groups = {"B"}, dependsOnGroups = {"A"})
+
+	@Test(groups = { "B" }, dependsOnGroups = { "A" })
 	public void uploadPicture() throws Exception {
-		
-		//Login url is called for the logging to application after registration
+		String Loginusrnme = readconfig.getLoginUsrName();
+
+		// Login url is called for the logging to application after registration
 		driver.get(loginurl);
 		logger.info("Login Url is opened.");
-		
+
 		ImgbbLoginPage login = new ImgbbLoginPage(driver);
-		
-		//Enter the username
+
+		// Enter the username
 		login.userName(Loginusrnme);
 		logger.info("Registered User name is entered.");
-		
-		//Enter the password
+
+		// Enter the password
 		login.passwordKey(password);
 		logger.info("Registered Password is entered.");
-		
-		//Submit button is entered
+
+		// Submit button is entered
 		ImgbbHomePage homePage = login.clickSubmitButton();
 		logger.info("Submit button is entered and Homepage is displayed");
-		
-		if (driver.getPageSource().contains("Wrong Username/Email password combination")){
+
+		if (driver.getPageSource().contains("Wrong Username/Email password combination")) {
 			logger.info("Not a valid user/password. Make sure correct details are entered. Please register if not done");
 			logger.info("Test Case Failed....");
 			captureScreen(driver, "LoginFailed");
 			AssertJUnit.assertTrue(false);
-		}else {
-			//Check whether the picture is uploaded
+		} else {
+			// Check whether the picture is uploaded
 			Boolean beforeupload = homePage.changeBackgroundPicBtn();
 			if (beforeupload == true) {
 				Assert.assertTrue("Picture is already uploaded. Please delete and run again", true);
@@ -48,9 +49,9 @@ public class TC02_UploadLogoTest extends BaseClass {
 
 				homePage.backGroundPicBtn(picpath);
 				String breadcrumbmsg = homePage.uploadBreadCrumMsg();
-				System.out.println(breadcrumbmsg);
-				
-				//Check whether the new picture is uploaded
+				logger.info(breadcrumbmsg);
+
+				// Check whether the new picture is uploaded
 				Boolean result = homePage.changeBackgroundPicBtn();
 				if (result == true) {
 					AssertJUnit.assertTrue(true);
@@ -63,7 +64,6 @@ public class TC02_UploadLogoTest extends BaseClass {
 
 			}
 		}
-		
-		
+
 	}
 }

@@ -20,7 +20,7 @@ public class ImgbbHomePage extends BasePage {
 	@CacheLookup
 	WebElement changebackgroundpicbutton;
 
-	@FindBy(how = How.CSS, css = "a.edit-link")
+	@FindBy(how = How.XPATH, xpath = "//span[contains(text(),'Edit profile')]")
 	@CacheLookup
 	WebElement textchecked;
 
@@ -33,8 +33,6 @@ public class ImgbbHomePage extends BasePage {
 	}
 
 	public void backGroundPicBtn(String logopath) {
-
-		waitForVisible(driver, backgroundpicbutton);
 
 		backgroundpicbutton.sendKeys(logopath);
 

@@ -2,6 +2,9 @@ package com.imbb.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Properties;
 
 public class ReadConfig {
@@ -71,8 +74,8 @@ public class ReadConfig {
 	}
 	
 	public String getLoginUsrName() {
-		String loginusrname = pro.getProperty("loginUserName");
-		return loginusrname;
+		String lgnusrname = pro.getProperty("loginUserName");
+		return lgnusrname;
 	}
 	
 	public String getEmailSentText() {
@@ -80,4 +83,30 @@ public class ReadConfig {
 		return esenttext;
 	}
 	
+public void tempWriteConfiguration(String loginusrname) {
+		
+		OutputStream output = null;
+		try {
+
+			output = new FileOutputStream("./Configuration/config.properties");
+
+			// set the properties value
+			pro.setProperty("loginUserName", loginusrname);
+
+			// save properties to project root folder
+			pro.store(output, null);
+
+		} catch (IOException io) {
+			io.printStackTrace();
+		} finally {
+			if (output != null) {
+				try {
+					output.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+
+		}
+	}
 }
